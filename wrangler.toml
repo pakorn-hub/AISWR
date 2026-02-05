@@ -1,0 +1,17 @@
+name = "wr-monitor"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[durable_objects]
+bindings = [
+  { name = "WR_MONITOR", class_name = "WRMonitorDO" }
+]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["WRMonitorDO"]
+
+[vars]
+ZONE_ID = "YOUR_ZONE_ID"
+WR_ID   = "YOUR_WAITING_ROOM_ID"
+
