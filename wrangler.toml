@@ -12,6 +12,5 @@ tag = "v1"
 new_classes = ["WRMonitorDO"]
 
 [vars]
-ZONE_ID = "YOUR_ZONE_ID"
-WR_ID   = "YOUR_WAITING_ROOM_ID"
-
+ZONE_ID = "62b008376b9992097049bc85a8ba303e"
+WR_ID   = "e6fffa12b2a24d17e2b89c33614bc194"
